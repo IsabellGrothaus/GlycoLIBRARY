@@ -120,7 +120,7 @@ def validate_library():
             for angle_name in angle_names:
 
                 expected_fes_file = (
-                    pipeline_dir / f"fes_{angle_name}.dat"
+                    pipeline_dir / f"fes_{angle_name}_0.dat"
                 )
 
                 if not expected_fes_file.is_file():
