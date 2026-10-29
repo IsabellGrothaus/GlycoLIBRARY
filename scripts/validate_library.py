@@ -7,7 +7,6 @@ LIBRARY = Path("library")
 REQUIRED_FILES = [
     "angles.dat",
     "colvar.dat",
-    "separator.dat",
     "omega_angles.dat",
 ]
 

@@ -1,0 +1,647 @@
+{
+    "glycan_id": "A2",
+    "iupac": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "terminal_modifications": [],
+    "peptide": "ANA",
+    "monosaccharides": {
+        "1": "GlcNAc",
+        "2": "GlcNAc",
+        "3": "Man",
+        "4": "Man",
+        "5": "GlcNAc",
+        "6": "Gal",
+        "7": "Neu5Ac",
+        "8": "Man",
+        "9": "GlcNAc",
+        "10": "Gal",
+        "11": "Neu5Ac"
+    },
+    "linkages": {
+        "1_2": "b1-4",
+        "2_3": "b1-4",
+        "3_4": "a1-6",
+        "3_8": "a1-3",
+        "4_5": "b1-2",
+        "5_6": "b1-4",
+        "6_7": "a2-3",
+        "8_9": "b1-2",
+        "9_10": "b1-4",
+        "10_11": "a2-3"
+    },
+    "pdb_residues": {
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 7,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 13,
+        "11": 14
+    },
+    "pdb_original_resseq": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "11": "11"
+    },
+    "pdb_residue_names": {
+        "1": "BGLC",
+        "2": "BGLC",
+        "3": "BMAN",
+        "4": "AMAN",
+        "5": "BGLC",
+        "6": "BGAL",
+        "7": "ANE5",
+        "8": "AMAN",
+        "9": "BGLC",
+        "10": "BGAL",
+        "11": "ANE5"
+    },
+    "pdb_segments": {
+        "1": "CARA",
+        "2": "CARA",
+        "3": "CARA",
+        "4": "CARA",
+        "5": "CARA",
+        "6": "CARA",
+        "7": "CARA",
+        "8": "CARA",
+        "9": "CARA",
+        "10": "CARA",
+        "11": "CARA"
+    },
+    "pucker_ring_atoms": {
+        "1": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "2": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "3": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "4": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "5": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "6": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "7": [
+            "O6",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+        ],
+        "8": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "9": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "10": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "11": [
+            "O6",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+        ]
+    },
+    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+    "pdb_glycosidic_bonds": [
+        {
+            "parent": "1",
+            "child": "2",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O4",
+            "distance_angstrom": 1.41
+        },
+        {
+            "parent": "2",
+            "child": "3",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O4",
+            "distance_angstrom": 1.409
+        },
+        {
+            "parent": "3",
+            "child": "4",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O6",
+            "distance_angstrom": 1.405
+        },
+        {
+            "parent": "3",
+            "child": "8",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O3",
+            "distance_angstrom": 1.408
+        },
+        {
+            "parent": "4",
+            "child": "5",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O2",
+            "distance_angstrom": 1.408
+        },
+        {
+            "parent": "5",
+            "child": "6",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O4",
+            "distance_angstrom": 1.408
+        },
+        {
+            "parent": "6",
+            "child": "7",
+            "donor_carbon": "C2",
+            "acceptor_oxygen": "O3",
+            "distance_angstrom": 1.412
+        },
+        {
+            "parent": "8",
+            "child": "9",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O2",
+            "distance_angstrom": 1.41
+        },
+        {
+            "parent": "9",
+            "child": "10",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O4",
+            "distance_angstrom": 1.408
+        },
+        {
+            "parent": "10",
+            "child": "11",
+            "donor_carbon": "C2",
+            "acceptor_oxygen": "O3",
+            "distance_angstrom": 1.411
+        }
+    ],
+    "reconstruction": {
+        "status": "partially_verified",
+        "warnings": [
+            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+            "Inter-residue bonds inferred from PDB distances, not verified against topology"
+        ],
+        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/step3_input.pdb",
+        "user_checked": false,
+        "topology_sources": [
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/toppar/CLA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/toppar/PROA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/toppar/SOD.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/toppar/TIP3.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/toppar/forcefield.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/A2/charmm-gui-1291729400_A2/gromacs/topol.top"
+        ],
+        "topology_residues_resolved": 11
+    },
+    "forcefield_residue_names": {
+        "1": {
+            "charmm": {
+                "a": "AGLCNA",
+                "b": "BGLCNA"
+            },
+            "glycam06_candidate": null,
+            "glycam06_family": "Y",
+            "pdb_ccd_names": [
+                "NAG",
+                "NDG",
+                "SGN",
+                "4YS"
+            ],
+            "outgoing_anomer": null
+        },
+        "2": {
+            "charmm": {
+                "a": "AGLCNA",
+                "b": "BGLCNA"
+            },
+            "glycam06_candidate": "4YB",
+            "glycam06_family": "Y",
+            "pdb_ccd_names": [
+                "NAG",
+                "NDG",
+                "SGN",
+                "4YS"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "3": {
+            "charmm": {
+                "a": "AMAN",
+                "b": "BMAN"
+            },
+            "glycam06_candidate": "VMB",
+            "glycam06_family": "M",
+            "pdb_ccd_names": [
+                "MAN",
+                "BMA"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "4": {
+            "charmm": {
+                "a": "AMAN",
+                "b": "BMAN"
+            },
+            "glycam06_candidate": "2MA",
+            "glycam06_family": "M",
+            "pdb_ccd_names": [
+                "MAN",
+                "BMA"
+            ],
+            "outgoing_anomer": "a"
+        },
+        "5": {
+            "charmm": {
+                "a": "AGLCNA",
+                "b": "BGLCNA"
+            },
+            "glycam06_candidate": "4YB",
+            "glycam06_family": "Y",
+            "pdb_ccd_names": [
+                "NAG",
+                "NDG",
+                "SGN",
+                "4YS"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "6": {
+            "charmm": {
+                "a": "AGAL",
+                "b": "BGAL"
+            },
+            "glycam06_candidate": "3LB",
+            "glycam06_family": "L",
+            "pdb_ccd_names": [
+                "GAL",
+                "GLA"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "7": {
+            "charmm": {
+                "a": "ANE5AC",
+                "b": "BNE5AC"
+            },
+            "glycam06_candidate": "0SA",
+            "glycam06_family": "S",
+            "pdb_ccd_names": [
+                "SIA"
+            ],
+            "outgoing_anomer": "a"
+        },
+        "8": {
+            "charmm": {
+                "a": "AMAN",
+                "b": "BMAN"
+            },
+            "glycam06_candidate": "2MA",
+            "glycam06_family": "M",
+            "pdb_ccd_names": [
+                "MAN",
+                "BMA"
+            ],
+            "outgoing_anomer": "a"
+        },
+        "9": {
+            "charmm": {
+                "a": "AGLCNA",
+                "b": "BGLCNA"
+            },
+            "glycam06_candidate": "4YB",
+            "glycam06_family": "Y",
+            "pdb_ccd_names": [
+                "NAG",
+                "NDG",
+                "SGN",
+                "4YS"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "10": {
+            "charmm": {
+                "a": "AGAL",
+                "b": "BGAL"
+            },
+            "glycam06_candidate": "3LB",
+            "glycam06_family": "L",
+            "pdb_ccd_names": [
+                "GAL",
+                "GLA"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "11": {
+            "charmm": {
+                "a": "ANE5AC",
+                "b": "BNE5AC"
+            },
+            "glycam06_candidate": "0SA",
+            "glycam06_family": "S",
+            "pdb_ccd_names": [
+                "SIA"
+            ],
+            "outgoing_anomer": "a"
+        }
+    },
+    "graph_edges": [
+        {
+            "id": "1_2",
+            "parent": "1",
+            "child": "2",
+            "linkage": "b1-4"
+        },
+        {
+            "id": "2_3",
+            "parent": "2",
+            "child": "3",
+            "linkage": "b1-4"
+        },
+        {
+            "id": "3_4",
+            "parent": "3",
+            "child": "4",
+            "linkage": "a1-6"
+        },
+        {
+            "id": "3_8",
+            "parent": "3",
+            "child": "8",
+            "linkage": "a1-3"
+        },
+        {
+            "id": "4_5",
+            "parent": "4",
+            "child": "5",
+            "linkage": "b1-2"
+        },
+        {
+            "id": "5_6",
+            "parent": "5",
+            "child": "6",
+            "linkage": "b1-4"
+        },
+        {
+            "id": "6_7",
+            "parent": "6",
+            "child": "7",
+            "linkage": "a2-3"
+        },
+        {
+            "id": "8_9",
+            "parent": "8",
+            "child": "9",
+            "linkage": "b1-2"
+        },
+        {
+            "id": "9_10",
+            "parent": "9",
+            "child": "10",
+            "linkage": "b1-4"
+        },
+        {
+            "id": "10_11",
+            "parent": "10",
+            "child": "11",
+            "linkage": "a2-3"
+        }
+    ],
+    "graph_nodes": [
+        {
+            "id": "1",
+            "mono": "GlcNAc",
+            "terminal_modification": false,
+            "pdb_resid": 4,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "2",
+            "mono": "GlcNAc",
+            "terminal_modification": false,
+            "pdb_resid": 5,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "3",
+            "mono": "Man",
+            "terminal_modification": false,
+            "pdb_resid": 6,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "4",
+            "mono": "Man",
+            "terminal_modification": false,
+            "pdb_resid": 7,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "5",
+            "mono": "GlcNAc",
+            "terminal_modification": false,
+            "pdb_resid": 8,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "6",
+            "mono": "Gal",
+            "terminal_modification": false,
+            "pdb_resid": 9,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "7",
+            "mono": "Neu5Ac",
+            "terminal_modification": false,
+            "pdb_resid": 10,
+            "pucker_ring_atoms": [
+                "O6",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6"
+            ]
+        },
+        {
+            "id": "8",
+            "mono": "Man",
+            "terminal_modification": false,
+            "pdb_resid": 11,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "9",
+            "mono": "GlcNAc",
+            "terminal_modification": false,
+            "pdb_resid": 12,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "10",
+            "mono": "Gal",
+            "terminal_modification": false,
+            "pdb_resid": 13,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "11",
+            "mono": "Neu5Ac",
+            "terminal_modification": false,
+            "pdb_resid": 14,
+            "pucker_ring_atoms": [
+                "O6",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6"
+            ]
+        }
+    ],
+    "root_node": "1",
+    "simulation": {
+        "n_replica": 12,
+        "min_temperature": 310.15,
+        "max_temperature": 800.0,
+        "structure_file": "step5_production.gro",
+        "mdp_file": "production.mdp",
+        "template_files": [
+            "*.mdp",
+            "generate_HREMD.sh",
+            "job.sh"
+        ],
+        "forcefield_file": "toppar/forcefield.itp"
+    }
+}

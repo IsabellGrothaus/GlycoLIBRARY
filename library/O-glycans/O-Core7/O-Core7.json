@@ -1,0 +1,153 @@
+{
+    "glycan_id": "O-Core7",
+    "iupac": "GalNAc(a1-6)GalNAc",
+    "terminal_modifications": [],
+    "peptide": "ASA",
+    "monosaccharides": {
+        "1": "GalNAc",
+        "2": "GalNAc"
+    },
+    "linkages": {
+        "1_2": "a1-6"
+    },
+    "pdb_residues": {
+        "1": 4,
+        "2": 5
+    },
+    "pdb_original_resseq": {
+        "1": "1",
+        "2": "2"
+    },
+    "pdb_residue_names": {
+        "1": "AGAL",
+        "2": "AGAL"
+    },
+    "pdb_segments": {
+        "1": "CARA",
+        "2": "CARA"
+    },
+    "pucker_ring_atoms": {
+        "1": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "2": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ]
+    },
+    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+    "pdb_glycosidic_bonds": [
+        {
+            "parent": "1",
+            "child": "2",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O6",
+            "distance_angstrom": 1.4
+        }
+    ],
+    "reconstruction": {
+        "status": "partially_verified",
+        "warnings": [
+            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+            "Inter-residue bonds inferred from PDB distances, not verified against topology"
+        ],
+        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/step3_input.pdb",
+        "user_checked": false,
+        "topology_sources": [
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/toppar/CLA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/toppar/PROA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/toppar/SOD.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/toppar/TIP3.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/toppar/forcefield.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-Core7/charmm-gui-1317953175_O-Core7/gromacs/topol.top"
+        ],
+        "topology_residues_resolved": 2
+    },
+    "forcefield_residue_names": {
+        "1": {
+            "charmm": {
+                "a": "AGALNA",
+                "b": "BGALNA"
+            },
+            "glycam06_candidate": null,
+            "glycam06_family": "V",
+            "pdb_ccd_names": [
+                "NGA"
+            ],
+            "outgoing_anomer": null
+        },
+        "2": {
+            "charmm": {
+                "a": "AGALNA",
+                "b": "BGALNA"
+            },
+            "glycam06_candidate": "0VA",
+            "glycam06_family": "V",
+            "pdb_ccd_names": [
+                "NGA"
+            ],
+            "outgoing_anomer": "a"
+        }
+    },
+    "graph_edges": [
+        {
+            "id": "1_2",
+            "parent": "1",
+            "child": "2",
+            "linkage": "a1-6"
+        }
+    ],
+    "graph_nodes": [
+        {
+            "id": "1",
+            "mono": "GalNAc",
+            "terminal_modification": false,
+            "pdb_resid": 4,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "2",
+            "mono": "GalNAc",
+            "terminal_modification": false,
+            "pdb_resid": 5,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        }
+    ],
+    "root_node": "1",
+    "simulation": {
+        "n_replica": 12,
+        "min_temperature": 310.15,
+        "max_temperature": 800.0,
+        "structure_file": "step5_production.gro",
+        "mdp_file": "production.mdp",
+        "template_files": [
+            "*.mdp",
+            "generate_HREMD.sh",
+            "job.sh"
+        ],
+        "forcefield_file": "toppar/forcefield.itp"
+    }
+}

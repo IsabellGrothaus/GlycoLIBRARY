@@ -1,0 +1,265 @@
+{
+    "glycan_id": "O-BloodB",
+    "iupac": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc",
+    "terminal_modifications": [],
+    "peptide": "ASA",
+    "monosaccharides": {
+        "1": "GlcNAc",
+        "2": "Gal",
+        "3": "Gal",
+        "4": "Fuc"
+    },
+    "linkages": {
+        "1_2": "b1-4",
+        "2_3": "a1-3",
+        "2_4": "a1-2"
+    },
+    "pdb_residues": {
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 7
+    },
+    "pdb_original_resseq": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+    },
+    "pdb_residue_names": {
+        "1": "BGLC",
+        "2": "BGAL",
+        "3": "AGAL",
+        "4": "AFUC"
+    },
+    "pdb_segments": {
+        "1": "CARA",
+        "2": "CARA",
+        "3": "CARA",
+        "4": "CARA"
+    },
+    "pucker_ring_atoms": {
+        "1": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "2": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "3": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ],
+        "4": [
+            "O5",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+        ]
+    },
+    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+    "pdb_glycosidic_bonds": [
+        {
+            "parent": "1",
+            "child": "2",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O4",
+            "distance_angstrom": 1.407
+        },
+        {
+            "parent": "2",
+            "child": "3",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O3",
+            "distance_angstrom": 1.41
+        },
+        {
+            "parent": "2",
+            "child": "4",
+            "donor_carbon": "C1",
+            "acceptor_oxygen": "O2",
+            "distance_angstrom": 1.41
+        }
+    ],
+    "reconstruction": {
+        "status": "partially_verified",
+        "warnings": [
+            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+            "Inter-residue bonds inferred from PDB distances, not verified against topology"
+        ],
+        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/step3_input.pdb",
+        "user_checked": false,
+        "topology_sources": [
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/toppar/CLA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/toppar/PROA.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/toppar/SOD.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/toppar/TIP3.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/toppar/forcefield.itp",
+            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/O-BloodB/charmm-gui-1318229799_O-BloodB/gromacs/topol.top"
+        ],
+        "topology_residues_resolved": 4
+    },
+    "forcefield_residue_names": {
+        "1": {
+            "charmm": {
+                "a": "AGLCNA",
+                "b": "BGLCNA"
+            },
+            "glycam06_candidate": null,
+            "glycam06_family": "Y",
+            "pdb_ccd_names": [
+                "NAG",
+                "NDG",
+                "SGN",
+                "4YS"
+            ],
+            "outgoing_anomer": null
+        },
+        "2": {
+            "charmm": {
+                "a": "AGAL",
+                "b": "BGAL"
+            },
+            "glycam06_candidate": "ZLB",
+            "glycam06_family": "L",
+            "pdb_ccd_names": [
+                "GAL",
+                "GLA"
+            ],
+            "outgoing_anomer": "b"
+        },
+        "3": {
+            "charmm": {
+                "a": "AGAL",
+                "b": "BGAL"
+            },
+            "glycam06_candidate": "0LA",
+            "glycam06_family": "L",
+            "pdb_ccd_names": [
+                "GAL",
+                "GLA"
+            ],
+            "outgoing_anomer": "a"
+        },
+        "4": {
+            "charmm": {
+                "a": "AFUC",
+                "b": "BFUC"
+            },
+            "glycam06_candidate": null,
+            "glycam06_family": "F",
+            "pdb_ccd_names": [
+                "FUC",
+                "FUL"
+            ],
+            "outgoing_anomer": "a"
+        }
+    },
+    "graph_edges": [
+        {
+            "id": "1_2",
+            "parent": "1",
+            "child": "2",
+            "linkage": "b1-4"
+        },
+        {
+            "id": "2_3",
+            "parent": "2",
+            "child": "3",
+            "linkage": "a1-3"
+        },
+        {
+            "id": "2_4",
+            "parent": "2",
+            "child": "4",
+            "linkage": "a1-2"
+        }
+    ],
+    "graph_nodes": [
+        {
+            "id": "1",
+            "mono": "GlcNAc",
+            "terminal_modification": false,
+            "pdb_resid": 4,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "2",
+            "mono": "Gal",
+            "terminal_modification": false,
+            "pdb_resid": 5,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "3",
+            "mono": "Gal",
+            "terminal_modification": false,
+            "pdb_resid": 6,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "id": "4",
+            "mono": "Fuc",
+            "terminal_modification": false,
+            "pdb_resid": 7,
+            "pucker_ring_atoms": [
+                "O5",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        }
+    ],
+    "root_node": "1",
+    "simulation": {
+        "n_replica": 12,
+        "min_temperature": 310.15,
+        "max_temperature": 800.0,
+        "structure_file": "step5_production.gro",
+        "mdp_file": "production.mdp",
+        "template_files": [
+            "*.mdp",
+            "generate_HREMD.sh",
+            "job.sh"
+        ],
+        "forcefield_file": "toppar/forcefield.itp"
+    }
+}
