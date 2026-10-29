@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T09:44:07.823999+00:00",
-  "glycan_count": 68,
+  "generated_at_utc": "2026-10-29T08:48:12.577531+00:00",
+  "glycan_count": 73,
   "glycan_ids": [
     "A1F",
     "A2",
@@ -70,7 +70,12 @@
     "Sialyl_Lex_Core2",
     "Sulfo_Sialyl-Lex_on_Core4",
     "Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79",
-    "Tn_Antigen"
+    "Tn_Antigen",
+    "PolySia_DP10",
+    "PolySia_DP15",
+    "PolySia_DP20",
+    "PolySia_DP3",
+    "PolySia_DP5"
   ],
   "iupacs": {
     "A1F": "Fuc(a1-6)[Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)]GlcNAc",
@@ -140,7 +145,12 @@
     "Sialyl_Lex_Core2": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc",
     "Sulfo_Sialyl-Lex_on_Core4": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc",
     "Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc",
-    "Tn_Antigen": "GalNAc"
+    "Tn_Antigen": "GalNAc",
+    "PolySia_DP10": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+    "PolySia_DP15": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+    "PolySia_DP20": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+    "PolySia_DP3": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+    "PolySia_DP5": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac"
   },
   "glycans": [
     {
@@ -192,7 +202,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 23,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2",
@@ -241,7 +254,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 21,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2_26NE5AC",
@@ -292,7 +308,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 23,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2F",
@@ -344,7 +363,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 24,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2F2",
@@ -398,7 +420,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 26,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2G1",
@@ -441,7 +466,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 15,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "A2G2S2_a3_8Sia",
@@ -467,6 +495,16 @@
         "fes_*.dat",
         "*.xtc",
         "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
       ]
     },
     {
@@ -513,7 +551,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 18,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Fuc1_Neu4",
@@ -578,7 +619,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 37,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal1_Fuc1",
@@ -627,7 +671,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 21,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal2_Fuc1_Neu1",
@@ -683,7 +730,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 28,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal2_Fuc2_Neu1",
@@ -741,7 +791,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 30,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal3_Fuc1",
@@ -794,7 +847,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 25,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal3_Fuc1_Neu1",
@@ -850,7 +906,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 28,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal4_Fuc1",
@@ -907,7 +966,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 29,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Gal6_Fuc1_Neu3",
@@ -978,7 +1040,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 43,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man3_Fuc1",
@@ -1027,7 +1092,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 21,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man3_Gal1",
@@ -1068,7 +1136,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 13,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man3_Gal1_Fuc1",
@@ -1112,7 +1183,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 16,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "NA2",
@@ -1157,7 +1231,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 17,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "NA2F",
@@ -1205,7 +1282,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 20,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "NGA2",
@@ -1246,7 +1326,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 13,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "NGA2F",
@@ -1290,7 +1373,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 16,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "NGA3F",
@@ -1337,7 +1423,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 19,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M2",
@@ -1372,7 +1461,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 7,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M2F2",
@@ -1412,7 +1504,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 12,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M2F_a3",
@@ -1449,7 +1544,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 9,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M2F_a6",
@@ -1487,7 +1585,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 10,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M3",
@@ -1524,7 +1625,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 9,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M3F2",
@@ -1566,7 +1670,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 14,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M3F_a3",
@@ -1605,7 +1712,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 11,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M3F_a6",
@@ -1645,7 +1755,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 12,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M4_a3",
@@ -1684,7 +1797,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 11,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "M4_a6",
@@ -1724,7 +1840,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 12,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5",
@@ -1766,7 +1885,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 14,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5_Fuc1",
@@ -1811,7 +1933,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 17,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5_GlcNAc1",
@@ -1855,7 +1980,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 16,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man6",
@@ -1899,7 +2027,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 16,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man7",
@@ -1945,7 +2076,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 18,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man8",
@@ -1993,7 +2127,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 20,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man9",
@@ -2043,7 +2180,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 22,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man9_Glc3",
@@ -2099,7 +2239,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 28,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5_Gal1",
@@ -2145,7 +2288,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 18,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5_Gal1_Fuc1",
@@ -2194,7 +2340,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 21,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Man5_Gal1_Fuc1_Neu1",
@@ -2246,7 +2395,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 24,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "DiSialyl-T",
@@ -2279,7 +2431,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 7,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Extended_Core1",
@@ -2309,7 +2464,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 4,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-3Sialyl_Core1",
@@ -2339,7 +2497,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 4,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-3Sialyl_Core2",
@@ -2372,7 +2533,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 7,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-BloodB",
@@ -2404,7 +2568,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 6,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core1",
@@ -2432,7 +2599,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 2,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core2",
@@ -2463,7 +2633,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 5,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core3",
@@ -2491,7 +2664,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 2,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core4",
@@ -2522,7 +2698,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 5,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core5",
@@ -2550,7 +2729,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 2,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core6",
@@ -2579,7 +2761,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 3,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core7",
@@ -2608,7 +2793,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 3,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "O-Core8",
@@ -2636,7 +2824,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 2,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sd3_Cad_on_Sialyl_Core3",
@@ -2673,7 +2864,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 11,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl-Lex_Core_2_and_Extended_Core1",
@@ -2718,7 +2912,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 19,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl-T",
@@ -2748,7 +2945,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 4,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl-Tn_Antigen",
@@ -2777,7 +2977,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 3,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl_Core3",
@@ -2808,7 +3011,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 5,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl_Core5",
@@ -2839,7 +3045,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 5,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sialyl_Lex_Core2",
@@ -2878,7 +3087,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 13,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sulfo_Sialyl-Lex_on_Core4",
@@ -2915,7 +3127,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 11,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79",
@@ -2951,7 +3166,10 @@
         "pucker.dat",
         "reference_rest-rect.pdb"
       ],
-      "missing_files": []
+      "missing_files": [],
+      "analysis_status": "complete",
+      "dihedral_count": 10,
+      "analysis_warnings": []
     },
     {
       "glycan_id": "Tn_Antigen",
@@ -2976,6 +3194,189 @@
         "omega_angles.dat",
         "pucker.dat",
         "fes_*.dat"
+      ],
+      "analysis_status": "metadata_only",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "colvar.dat missing"
+      ]
+    },
+    {
+      "glycan_id": "PolySia_DP10",
+      "iupac": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+      "path": "Polymer/PolySia_DP10",
+      "category": [
+        "Polymer"
+      ],
+      "monosaccharide_count": 10,
+      "linkage_count": 9,
+      "reconstruction_status": "partially_verified",
+      "user_checked": false,
+      "files": [
+        "PolySia_DP10.json",
+        "PolySia_DP10.png"
+      ],
+      "missing_files": [
+        "angles.dat",
+        "colvar.dat",
+        "omega_angles.dat",
+        "pucker.dat",
+        "fes_*.dat",
+        "*.xtc",
+        "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
+      ]
+    },
+    {
+      "glycan_id": "PolySia_DP15",
+      "iupac": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+      "path": "Polymer/PolySia_DP15",
+      "category": [
+        "Polymer"
+      ],
+      "monosaccharide_count": 15,
+      "linkage_count": 14,
+      "reconstruction_status": "partially_verified",
+      "user_checked": false,
+      "files": [
+        "PolySia_DP15.json",
+        "PolySia_DP15.png"
+      ],
+      "missing_files": [
+        "angles.dat",
+        "colvar.dat",
+        "omega_angles.dat",
+        "pucker.dat",
+        "fes_*.dat",
+        "*.xtc",
+        "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
+      ]
+    },
+    {
+      "glycan_id": "PolySia_DP20",
+      "iupac": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+      "path": "Polymer/PolySia_DP20",
+      "category": [
+        "Polymer"
+      ],
+      "monosaccharide_count": 20,
+      "linkage_count": 19,
+      "reconstruction_status": "partially_verified",
+      "user_checked": false,
+      "files": [
+        "PolySia_DP20.json",
+        "PolySia_DP20.png"
+      ],
+      "missing_files": [
+        "angles.dat",
+        "colvar.dat",
+        "omega_angles.dat",
+        "pucker.dat",
+        "fes_*.dat",
+        "*.xtc",
+        "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
+      ]
+    },
+    {
+      "glycan_id": "PolySia_DP3",
+      "iupac": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+      "path": "Polymer/PolySia_DP3",
+      "category": [
+        "Polymer"
+      ],
+      "monosaccharide_count": 3,
+      "linkage_count": 2,
+      "reconstruction_status": "partially_verified",
+      "user_checked": false,
+      "files": [
+        "PolySia_DP3.json",
+        "PolySia_DP3.png"
+      ],
+      "missing_files": [
+        "angles.dat",
+        "colvar.dat",
+        "omega_angles.dat",
+        "pucker.dat",
+        "fes_*.dat",
+        "*.xtc",
+        "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
+      ]
+    },
+    {
+      "glycan_id": "PolySia_DP5",
+      "iupac": "Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac(a2-8)Neu5Ac",
+      "path": "Polymer/PolySia_DP5",
+      "category": [
+        "Polymer"
+      ],
+      "monosaccharide_count": 5,
+      "linkage_count": 4,
+      "reconstruction_status": "partially_verified",
+      "user_checked": false,
+      "files": [
+        "PolySia_DP5.json",
+        "PolySia_DP5.png"
+      ],
+      "missing_files": [
+        "angles.dat",
+        "colvar.dat",
+        "omega_angles.dat",
+        "pucker.dat",
+        "fes_*.dat",
+        "*.xtc",
+        "*.pdb"
+      ],
+      "analysis_status": "awaiting_analysis",
+      "dihedral_count": 0,
+      "analysis_warnings": [
+        "Missing angles.dat",
+        "Missing omega_angles.dat",
+        "Missing pucker.dat",
+        "No PDB reference found",
+        "No XTC trajectory found",
+        "colvar.dat missing"
       ]
     }
   ],

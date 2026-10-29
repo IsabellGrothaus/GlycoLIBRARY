@@ -1,705 +1,931 @@
 {
-    "glycan_id": "Gal3_Fuc1",
-    "iupac": "Fuc(a1-6)[Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)]GlcNAc",
-    "terminal_modifications": [],
-    "peptide": "ANA",
-    "monosaccharides": {
-        "1": "GlcNAc",
-        "2": "GlcNAc",
-        "3": "Man",
-        "4": "Man",
-        "5": "GlcNAc",
-        "6": "Gal",
-        "7": "GlcNAc",
-        "8": "Gal",
-        "9": "Man",
-        "10": "GlcNAc",
-        "11": "Gal",
-        "12": "Fuc"
-    },
-    "linkages": {
-        "1_2": "b1-4",
-        "1_12": "a1-6",
-        "2_3": "b1-4",
-        "3_4": "a1-6",
-        "3_9": "a1-3",
-        "4_5": "b1-6",
-        "4_7": "b1-2",
-        "5_6": "b1-4",
-        "7_8": "b1-4",
-        "9_10": "b1-2",
-        "10_11": "b1-4"
-    },
-    "pdb_residues": {
-        "1": 4,
-        "2": 5,
-        "3": 6,
-        "4": 7,
-        "5": 8,
-        "6": 9,
-        "7": 10,
-        "8": 11,
-        "9": 12,
-        "10": 13,
-        "11": 14,
-        "12": 15
-    },
-    "pdb_original_resseq": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6",
-        "7": "7",
-        "8": "8",
-        "9": "9",
-        "10": "10",
-        "11": "11",
-        "12": "12"
-    },
-    "pdb_residue_names": {
-        "1": "BGLC",
-        "2": "BGLC",
-        "3": "BMAN",
-        "4": "AMAN",
-        "5": "BGLC",
-        "6": "BGAL",
-        "7": "BGLC",
-        "8": "BGAL",
-        "9": "AMAN",
-        "10": "BGLC",
-        "11": "BGAL",
-        "12": "AFUC"
-    },
-    "pdb_segments": {
-        "1": "CARA",
-        "2": "CARA",
-        "3": "CARA",
-        "4": "CARA",
-        "5": "CARA",
-        "6": "CARA",
-        "7": "CARA",
-        "8": "CARA",
-        "9": "CARA",
-        "10": "CARA",
-        "11": "CARA",
-        "12": "CARA"
-    },
-    "pucker_ring_atoms": {
-        "1": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "2": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "3": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "4": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "5": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "6": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "7": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "8": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "9": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "10": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "11": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "12": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ]
-    },
-    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
-    "pdb_glycosidic_bonds": [
-        {
-            "parent": "1",
-            "child": "2",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.406
-        },
-        {
-            "parent": "1",
-            "child": "12",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O6",
-            "distance_angstrom": 1.407
-        },
-        {
-            "parent": "2",
-            "child": "3",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.406
-        },
-        {
-            "parent": "3",
-            "child": "4",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O6",
-            "distance_angstrom": 1.402
-        },
-        {
-            "parent": "3",
-            "child": "9",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O3",
-            "distance_angstrom": 1.408
-        },
-        {
-            "parent": "4",
-            "child": "5",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O6",
-            "distance_angstrom": 1.402
-        },
-        {
-            "parent": "4",
-            "child": "7",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O2",
-            "distance_angstrom": 1.408
-        },
-        {
-            "parent": "5",
-            "child": "6",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.409
-        },
-        {
-            "parent": "7",
-            "child": "8",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.408
-        },
-        {
-            "parent": "9",
-            "child": "10",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O2",
-            "distance_angstrom": 1.408
-        },
-        {
-            "parent": "10",
-            "child": "11",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.409
-        }
+  "glycan_id": "Gal3_Fuc1",
+  "iupac": "Fuc(a1-6)[Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)]GlcNAc",
+  "terminal_modifications": [],
+  "peptide": "ANA",
+  "monosaccharides": {
+    "1": "GlcNAc",
+    "2": "GlcNAc",
+    "3": "Man",
+    "4": "Man",
+    "5": "GlcNAc",
+    "6": "Gal",
+    "7": "GlcNAc",
+    "8": "Gal",
+    "9": "Man",
+    "10": "GlcNAc",
+    "11": "Gal",
+    "12": "Fuc"
+  },
+  "linkages": {
+    "1_2": "b1-4",
+    "1_12": "a1-6",
+    "2_3": "b1-4",
+    "3_4": "a1-6",
+    "3_9": "a1-3",
+    "4_5": "b1-6",
+    "4_7": "b1-2",
+    "5_6": "b1-4",
+    "7_8": "b1-4",
+    "9_10": "b1-2",
+    "10_11": "b1-4"
+  },
+  "pdb_residues": {
+    "1": 4,
+    "2": 5,
+    "3": 6,
+    "4": 7,
+    "5": 8,
+    "6": 9,
+    "7": 10,
+    "8": 11,
+    "9": 12,
+    "10": 13,
+    "11": 14,
+    "12": 15
+  },
+  "pdb_original_resseq": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "10": "10",
+    "11": "11",
+    "12": "12"
+  },
+  "pdb_residue_names": {
+    "1": "BGLC",
+    "2": "BGLC",
+    "3": "BMAN",
+    "4": "AMAN",
+    "5": "BGLC",
+    "6": "BGAL",
+    "7": "BGLC",
+    "8": "BGAL",
+    "9": "AMAN",
+    "10": "BGLC",
+    "11": "BGAL",
+    "12": "AFUC"
+  },
+  "pdb_segments": {
+    "1": "CARA",
+    "2": "CARA",
+    "3": "CARA",
+    "4": "CARA",
+    "5": "CARA",
+    "6": "CARA",
+    "7": "CARA",
+    "8": "CARA",
+    "9": "CARA",
+    "10": "CARA",
+    "11": "CARA",
+    "12": "CARA"
+  },
+  "pucker_ring_atoms": {
+    "1": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "reconstruction": {
-        "status": "partially_verified",
-        "warnings": [
-            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
-            "Inter-residue bonds inferred from PDB distances, not verified against topology"
-        ],
-        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/step3_input.pdb",
-        "user_checked": false,
-        "topology_sources": [
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/CLA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/PROA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/SOD.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/TIP3.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/forcefield.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/topol.top"
-        ],
-        "topology_residues_resolved": 12
-    },
-    "forcefield_residue_names": {
-        "1": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": null,
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": null
-        },
-        "2": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": "4YB",
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "3": {
-            "charmm": {
-                "a": "AMAN",
-                "b": "BMAN"
-            },
-            "glycam06_candidate": "VMB",
-            "glycam06_family": "M",
-            "pdb_ccd_names": [
-                "MAN",
-                "BMA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "4": {
-            "charmm": {
-                "a": "AMAN",
-                "b": "BMAN"
-            },
-            "glycam06_candidate": "XMA",
-            "glycam06_family": "M",
-            "pdb_ccd_names": [
-                "MAN",
-                "BMA"
-            ],
-            "outgoing_anomer": "a"
-        },
-        "5": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": "4YB",
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "6": {
-            "charmm": {
-                "a": "AGAL",
-                "b": "BGAL"
-            },
-            "glycam06_candidate": "0LB",
-            "glycam06_family": "L",
-            "pdb_ccd_names": [
-                "GAL",
-                "GLA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "7": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": "4YB",
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "8": {
-            "charmm": {
-                "a": "AGAL",
-                "b": "BGAL"
-            },
-            "glycam06_candidate": "0LB",
-            "glycam06_family": "L",
-            "pdb_ccd_names": [
-                "GAL",
-                "GLA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "9": {
-            "charmm": {
-                "a": "AMAN",
-                "b": "BMAN"
-            },
-            "glycam06_candidate": "2MA",
-            "glycam06_family": "M",
-            "pdb_ccd_names": [
-                "MAN",
-                "BMA"
-            ],
-            "outgoing_anomer": "a"
-        },
-        "10": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": "4YB",
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "11": {
-            "charmm": {
-                "a": "AGAL",
-                "b": "BGAL"
-            },
-            "glycam06_candidate": "0LB",
-            "glycam06_family": "L",
-            "pdb_ccd_names": [
-                "GAL",
-                "GLA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "12": {
-            "charmm": {
-                "a": "AFUC",
-                "b": "BFUC"
-            },
-            "glycam06_candidate": null,
-            "glycam06_family": "F",
-            "pdb_ccd_names": [
-                "FUC",
-                "FUL"
-            ],
-            "outgoing_anomer": "a"
-        }
-    },
-    "graph_edges": [
-        {
-            "id": "1_2",
-            "parent": "1",
-            "child": "2",
-            "linkage": "b1-4"
-        },
-        {
-            "id": "1_12",
-            "parent": "1",
-            "child": "12",
-            "linkage": "a1-6"
-        },
-        {
-            "id": "2_3",
-            "parent": "2",
-            "child": "3",
-            "linkage": "b1-4"
-        },
-        {
-            "id": "3_4",
-            "parent": "3",
-            "child": "4",
-            "linkage": "a1-6"
-        },
-        {
-            "id": "3_9",
-            "parent": "3",
-            "child": "9",
-            "linkage": "a1-3"
-        },
-        {
-            "id": "4_5",
-            "parent": "4",
-            "child": "5",
-            "linkage": "b1-6"
-        },
-        {
-            "id": "4_7",
-            "parent": "4",
-            "child": "7",
-            "linkage": "b1-2"
-        },
-        {
-            "id": "5_6",
-            "parent": "5",
-            "child": "6",
-            "linkage": "b1-4"
-        },
-        {
-            "id": "7_8",
-            "parent": "7",
-            "child": "8",
-            "linkage": "b1-4"
-        },
-        {
-            "id": "9_10",
-            "parent": "9",
-            "child": "10",
-            "linkage": "b1-2"
-        },
-        {
-            "id": "10_11",
-            "parent": "10",
-            "child": "11",
-            "linkage": "b1-4"
-        }
+    "2": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "graph_nodes": [
-        {
-            "id": "1",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 4,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "2",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 5,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "3",
-            "mono": "Man",
-            "terminal_modification": false,
-            "pdb_resid": 6,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "4",
-            "mono": "Man",
-            "terminal_modification": false,
-            "pdb_resid": 7,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "5",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 8,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "6",
-            "mono": "Gal",
-            "terminal_modification": false,
-            "pdb_resid": 9,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "7",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 10,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "8",
-            "mono": "Gal",
-            "terminal_modification": false,
-            "pdb_resid": 11,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "9",
-            "mono": "Man",
-            "terminal_modification": false,
-            "pdb_resid": 12,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "10",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 13,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "11",
-            "mono": "Gal",
-            "terminal_modification": false,
-            "pdb_resid": 14,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "12",
-            "mono": "Fuc",
-            "terminal_modification": false,
-            "pdb_resid": 15,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        }
+    "3": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "root_node": "1",
-    "simulation": {
-        "n_replica": 12,
-        "min_temperature": 310.15,
-        "max_temperature": 800.0,
-        "structure_file": "step5_production.gro",
-        "mdp_file": "production.mdp",
-        "template_files": [
-            "*.mdp",
-            "generate_HREMD.sh",
-            "job.sh"
-        ],
-        "forcefield_file": "toppar/forcefield.itp"
+    "4": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "5": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "6": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "7": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "8": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "9": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "10": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "11": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "12": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ]
+  },
+  "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+  "pdb_glycosidic_bonds": [
+    {
+      "parent": "1",
+      "child": "2",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.406
+    },
+    {
+      "parent": "1",
+      "child": "12",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O6",
+      "distance_angstrom": 1.407
+    },
+    {
+      "parent": "2",
+      "child": "3",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.406
+    },
+    {
+      "parent": "3",
+      "child": "4",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O6",
+      "distance_angstrom": 1.402
+    },
+    {
+      "parent": "3",
+      "child": "9",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O3",
+      "distance_angstrom": 1.408
+    },
+    {
+      "parent": "4",
+      "child": "5",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O6",
+      "distance_angstrom": 1.402
+    },
+    {
+      "parent": "4",
+      "child": "7",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O2",
+      "distance_angstrom": 1.408
+    },
+    {
+      "parent": "5",
+      "child": "6",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.409
+    },
+    {
+      "parent": "7",
+      "child": "8",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.408
+    },
+    {
+      "parent": "9",
+      "child": "10",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O2",
+      "distance_angstrom": 1.408
+    },
+    {
+      "parent": "10",
+      "child": "11",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.409
     }
+  ],
+  "reconstruction": {
+    "status": "partially_verified",
+    "warnings": [
+      "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+      "Inter-residue bonds inferred from PDB distances, not verified against topology"
+    ],
+    "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/step3_input.pdb",
+    "user_checked": false,
+    "topology_sources": [
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/CLA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/PROA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/SOD.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/TIP3.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/toppar/forcefield.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/N-glycans/Complex/Gal3_Fuc1/charmm-gui-1291207377_Gal3_Fuc1/gromacs/topol.top"
+    ],
+    "topology_residues_resolved": 12
+  },
+  "forcefield_residue_names": {
+    "1": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": null,
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": null
+    },
+    "2": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": "4YB",
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "3": {
+      "charmm": {
+        "a": "AMAN",
+        "b": "BMAN"
+      },
+      "glycam06_candidate": "VMB",
+      "glycam06_family": "M",
+      "pdb_ccd_names": [
+        "MAN",
+        "BMA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "4": {
+      "charmm": {
+        "a": "AMAN",
+        "b": "BMAN"
+      },
+      "glycam06_candidate": "XMA",
+      "glycam06_family": "M",
+      "pdb_ccd_names": [
+        "MAN",
+        "BMA"
+      ],
+      "outgoing_anomer": "a"
+    },
+    "5": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": "4YB",
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "6": {
+      "charmm": {
+        "a": "AGAL",
+        "b": "BGAL"
+      },
+      "glycam06_candidate": "0LB",
+      "glycam06_family": "L",
+      "pdb_ccd_names": [
+        "GAL",
+        "GLA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "7": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": "4YB",
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "8": {
+      "charmm": {
+        "a": "AGAL",
+        "b": "BGAL"
+      },
+      "glycam06_candidate": "0LB",
+      "glycam06_family": "L",
+      "pdb_ccd_names": [
+        "GAL",
+        "GLA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "9": {
+      "charmm": {
+        "a": "AMAN",
+        "b": "BMAN"
+      },
+      "glycam06_candidate": "2MA",
+      "glycam06_family": "M",
+      "pdb_ccd_names": [
+        "MAN",
+        "BMA"
+      ],
+      "outgoing_anomer": "a"
+    },
+    "10": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": "4YB",
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "11": {
+      "charmm": {
+        "a": "AGAL",
+        "b": "BGAL"
+      },
+      "glycam06_candidate": "0LB",
+      "glycam06_family": "L",
+      "pdb_ccd_names": [
+        "GAL",
+        "GLA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "12": {
+      "charmm": {
+        "a": "AFUC",
+        "b": "BFUC"
+      },
+      "glycam06_candidate": null,
+      "glycam06_family": "F",
+      "pdb_ccd_names": [
+        "FUC",
+        "FUL"
+      ],
+      "outgoing_anomer": "a"
+    }
+  },
+  "graph_edges": [
+    {
+      "id": "1_2",
+      "parent": "1",
+      "child": "2",
+      "linkage": "b1-4"
+    },
+    {
+      "id": "1_12",
+      "parent": "1",
+      "child": "12",
+      "linkage": "a1-6"
+    },
+    {
+      "id": "2_3",
+      "parent": "2",
+      "child": "3",
+      "linkage": "b1-4"
+    },
+    {
+      "id": "3_4",
+      "parent": "3",
+      "child": "4",
+      "linkage": "a1-6"
+    },
+    {
+      "id": "3_9",
+      "parent": "3",
+      "child": "9",
+      "linkage": "a1-3"
+    },
+    {
+      "id": "4_5",
+      "parent": "4",
+      "child": "5",
+      "linkage": "b1-6"
+    },
+    {
+      "id": "4_7",
+      "parent": "4",
+      "child": "7",
+      "linkage": "b1-2"
+    },
+    {
+      "id": "5_6",
+      "parent": "5",
+      "child": "6",
+      "linkage": "b1-4"
+    },
+    {
+      "id": "7_8",
+      "parent": "7",
+      "child": "8",
+      "linkage": "b1-4"
+    },
+    {
+      "id": "9_10",
+      "parent": "9",
+      "child": "10",
+      "linkage": "b1-2"
+    },
+    {
+      "id": "10_11",
+      "parent": "10",
+      "child": "11",
+      "linkage": "b1-4"
+    }
+  ],
+  "graph_nodes": [
+    {
+      "id": "1",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 4,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "2",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 5,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "3",
+      "mono": "Man",
+      "terminal_modification": false,
+      "pdb_resid": 6,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "4",
+      "mono": "Man",
+      "terminal_modification": false,
+      "pdb_resid": 7,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "5",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 8,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "6",
+      "mono": "Gal",
+      "terminal_modification": false,
+      "pdb_resid": 9,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "7",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 10,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "8",
+      "mono": "Gal",
+      "terminal_modification": false,
+      "pdb_resid": 11,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "9",
+      "mono": "Man",
+      "terminal_modification": false,
+      "pdb_resid": 12,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "10",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 13,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "11",
+      "mono": "Gal",
+      "terminal_modification": false,
+      "pdb_resid": 14,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "12",
+      "mono": "Fuc",
+      "terminal_modification": false,
+      "pdb_resid": 15,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "root_node": "1",
+  "simulation": {
+    "n_replica": 12,
+    "min_temperature": 310.15,
+    "max_temperature": 800.0,
+    "structure_file": "step5_production.gro",
+    "mdp_file": "production.mdp",
+    "template_files": [
+      "*.mdp",
+      "generate_HREMD.sh",
+      "job.sh"
+    ],
+    "forcefield_file": "toppar/forcefield.itp"
+  },
+  "analysis": {
+    "schema_version": 1,
+    "status": "complete",
+    "files": {
+      "colvar": "colvar.dat",
+      "angles": "angles.dat",
+      "omega_angles": "omega_angles.dat",
+      "pucker": "pucker.dat",
+      "trajectories": [
+        "conformations_rest-rect_aligned.xtc"
+      ],
+      "references": [
+        "reference_rest-rect.pdb"
+      ]
+    },
+    "colvar_rows": 50001,
+    "dihedrals": [
+      {
+        "id": 0,
+        "name": "phi1_2",
+        "type": "phi",
+        "edge_id": "1_2",
+        "colvar_column": "phi1_2",
+        "fes_file": "fes_phi1_2_0.dat"
+      },
+      {
+        "id": 1,
+        "name": "psi1_2",
+        "type": "psi",
+        "edge_id": "1_2",
+        "colvar_column": "psi1_2",
+        "fes_file": "fes_psi1_2_0.dat"
+      },
+      {
+        "id": 2,
+        "name": "phi2_3",
+        "type": "phi",
+        "edge_id": "2_3",
+        "colvar_column": "phi2_3",
+        "fes_file": "fes_phi2_3_0.dat"
+      },
+      {
+        "id": 3,
+        "name": "psi2_3",
+        "type": "psi",
+        "edge_id": "2_3",
+        "colvar_column": "psi2_3",
+        "fes_file": "fes_psi2_3_0.dat"
+      },
+      {
+        "id": 4,
+        "name": "phi3_4",
+        "type": "phi",
+        "edge_id": "3_4",
+        "colvar_column": "phi3_4",
+        "fes_file": "fes_phi3_4_0.dat"
+      },
+      {
+        "id": 5,
+        "name": "psi3_4",
+        "type": "psi",
+        "edge_id": "3_4",
+        "colvar_column": "psi3_4",
+        "fes_file": "fes_psi3_4_0.dat"
+      },
+      {
+        "id": 6,
+        "name": "omega3_4",
+        "type": "omega",
+        "edge_id": "3_4",
+        "colvar_column": "omega3_4",
+        "fes_file": "fes_omega3_4_0.dat"
+      },
+      {
+        "id": 7,
+        "name": "phi4_5",
+        "type": "phi",
+        "edge_id": "4_5",
+        "colvar_column": "phi4_5",
+        "fes_file": "fes_phi4_5_0.dat"
+      },
+      {
+        "id": 8,
+        "name": "psi4_5",
+        "type": "psi",
+        "edge_id": "4_5",
+        "colvar_column": "psi4_5",
+        "fes_file": "fes_psi4_5_0.dat"
+      },
+      {
+        "id": 9,
+        "name": "omega4_5",
+        "type": "omega",
+        "edge_id": "4_5",
+        "colvar_column": "omega4_5",
+        "fes_file": "fes_omega4_5_0.dat"
+      },
+      {
+        "id": 10,
+        "name": "phi5_6",
+        "type": "phi",
+        "edge_id": "5_6",
+        "colvar_column": "phi5_6",
+        "fes_file": "fes_phi5_6_0.dat"
+      },
+      {
+        "id": 11,
+        "name": "psi5_6",
+        "type": "psi",
+        "edge_id": "5_6",
+        "colvar_column": "psi5_6",
+        "fes_file": "fes_psi5_6_0.dat"
+      },
+      {
+        "id": 12,
+        "name": "phi4_7",
+        "type": "phi",
+        "edge_id": "4_7",
+        "colvar_column": "phi4_7",
+        "fes_file": "fes_phi4_7_0.dat"
+      },
+      {
+        "id": 13,
+        "name": "psi4_7",
+        "type": "psi",
+        "edge_id": "4_7",
+        "colvar_column": "psi4_7",
+        "fes_file": "fes_psi4_7_0.dat"
+      },
+      {
+        "id": 14,
+        "name": "phi7_8",
+        "type": "phi",
+        "edge_id": "7_8",
+        "colvar_column": "phi7_8",
+        "fes_file": "fes_phi7_8_0.dat"
+      },
+      {
+        "id": 15,
+        "name": "psi7_8",
+        "type": "psi",
+        "edge_id": "7_8",
+        "colvar_column": "psi7_8",
+        "fes_file": "fes_psi7_8_0.dat"
+      },
+      {
+        "id": 16,
+        "name": "phi3_9",
+        "type": "phi",
+        "edge_id": "3_9",
+        "colvar_column": "phi3_9",
+        "fes_file": "fes_phi3_9_0.dat"
+      },
+      {
+        "id": 17,
+        "name": "psi3_9",
+        "type": "psi",
+        "edge_id": "3_9",
+        "colvar_column": "psi3_9",
+        "fes_file": "fes_psi3_9_0.dat"
+      },
+      {
+        "id": 18,
+        "name": "phi9_10",
+        "type": "phi",
+        "edge_id": "9_10",
+        "colvar_column": "phi9_10",
+        "fes_file": "fes_phi9_10_0.dat"
+      },
+      {
+        "id": 19,
+        "name": "psi9_10",
+        "type": "psi",
+        "edge_id": "9_10",
+        "colvar_column": "psi9_10",
+        "fes_file": "fes_psi9_10_0.dat"
+      },
+      {
+        "id": 20,
+        "name": "phi10_11",
+        "type": "phi",
+        "edge_id": "10_11",
+        "colvar_column": "phi10_11",
+        "fes_file": "fes_phi10_11_0.dat"
+      },
+      {
+        "id": 21,
+        "name": "psi10_11",
+        "type": "psi",
+        "edge_id": "10_11",
+        "colvar_column": "psi10_11",
+        "fes_file": "fes_psi10_11_0.dat"
+      },
+      {
+        "id": 22,
+        "name": "phi1_12",
+        "type": "phi",
+        "edge_id": "1_12",
+        "colvar_column": "phi1_12",
+        "fes_file": "fes_phi1_12_0.dat"
+      },
+      {
+        "id": 23,
+        "name": "psi1_12",
+        "type": "psi",
+        "edge_id": "1_12",
+        "colvar_column": "psi1_12",
+        "fes_file": "fes_psi1_12_0.dat"
+      },
+      {
+        "id": 24,
+        "name": "omega1_12",
+        "type": "omega",
+        "edge_id": "1_12",
+        "colvar_column": "omega1_12",
+        "fes_file": "fes_omega1_12_0.dat"
+      }
+    ],
+    "validation": {
+      "colvar_columns_match": true,
+      "fes_mapping_complete": true,
+      "trajectory_frames_match": null,
+      "conformer_states_match": null
+    },
+    "warnings": []
+  }
 }

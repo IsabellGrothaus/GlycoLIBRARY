@@ -1,371 +1,477 @@
 {
-    "glycan_id": "Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79",
-    "iupac": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc",
-    "terminal_modifications": [],
-    "peptide": "ASA",
-    "monosaccharides": {
-        "1": "GalNAc",
-        "2": "Gal",
-        "3": "GlcNAc",
-        "4": "Gal",
-        "5": "Neu5Ac",
-        "6": "Fuc"
-    },
-    "linkages": {
-        "1_2": "b1-3",
-        "2_3": "b1-3",
-        "3_4": "b1-4",
-        "3_6": "a1-3",
-        "4_5": "a2-3"
-    },
-    "pdb_residues": {
-        "1": 4,
-        "2": 5,
-        "3": 6,
-        "4": 7,
-        "5": 8,
-        "6": 9
-    },
-    "pdb_original_resseq": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6"
-    },
-    "pdb_residue_names": {
-        "1": "AGAL",
-        "2": "BGAL",
-        "3": "BGLC",
-        "4": "BGAL",
-        "5": "ANE5",
-        "6": "AFUC"
-    },
-    "pdb_segments": {
-        "1": "CARA",
-        "2": "CARA",
-        "3": "CARA",
-        "4": "CARA",
-        "5": "CARA",
-        "6": "CARA"
-    },
-    "pucker_ring_atoms": {
-        "1": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "2": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "3": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "4": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ],
-        "5": [
-            "O6",
-            "C2",
-            "C3",
-            "C4",
-            "C5",
-            "C6"
-        ],
-        "6": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ]
-    },
-    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
-    "pdb_glycosidic_bonds": [
-        {
-            "parent": "1",
-            "child": "2",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O3",
-            "distance_angstrom": 1.408
-        },
-        {
-            "parent": "2",
-            "child": "3",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O3",
-            "distance_angstrom": 1.406
-        },
-        {
-            "parent": "3",
-            "child": "4",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O4",
-            "distance_angstrom": 1.407
-        },
-        {
-            "parent": "3",
-            "child": "6",
-            "donor_carbon": "C1",
-            "acceptor_oxygen": "O3",
-            "distance_angstrom": 1.413
-        },
-        {
-            "parent": "4",
-            "child": "5",
-            "donor_carbon": "C2",
-            "acceptor_oxygen": "O3",
-            "distance_angstrom": 1.412
-        }
+  "glycan_id": "Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79",
+  "iupac": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc",
+  "terminal_modifications": [],
+  "peptide": "ASA",
+  "monosaccharides": {
+    "1": "GalNAc",
+    "2": "Gal",
+    "3": "GlcNAc",
+    "4": "Gal",
+    "5": "Neu5Ac",
+    "6": "Fuc"
+  },
+  "linkages": {
+    "1_2": "b1-3",
+    "2_3": "b1-3",
+    "3_4": "b1-4",
+    "3_6": "a1-3",
+    "4_5": "a2-3"
+  },
+  "pdb_residues": {
+    "1": 4,
+    "2": 5,
+    "3": 6,
+    "4": 7,
+    "5": 8,
+    "6": 9
+  },
+  "pdb_original_resseq": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6"
+  },
+  "pdb_residue_names": {
+    "1": "AGAL",
+    "2": "BGAL",
+    "3": "BGLC",
+    "4": "BGAL",
+    "5": "ANE5",
+    "6": "AFUC"
+  },
+  "pdb_segments": {
+    "1": "CARA",
+    "2": "CARA",
+    "3": "CARA",
+    "4": "CARA",
+    "5": "CARA",
+    "6": "CARA"
+  },
+  "pucker_ring_atoms": {
+    "1": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "reconstruction": {
-        "status": "partially_verified",
-        "warnings": [
-            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
-            "Inter-residue bonds inferred from PDB distances, not verified against topology"
-        ],
-        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/step3_input.pdb",
-        "user_checked": false,
-        "topology_sources": [
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/CLA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/PROA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/SOD.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/TIP3.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/forcefield.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/topol.top"
-        ],
-        "topology_residues_resolved": 6
-    },
-    "forcefield_residue_names": {
-        "1": {
-            "charmm": {
-                "a": "AGALNA",
-                "b": "BGALNA"
-            },
-            "glycam06_candidate": null,
-            "glycam06_family": "V",
-            "pdb_ccd_names": [
-                "NGA"
-            ],
-            "outgoing_anomer": null
-        },
-        "2": {
-            "charmm": {
-                "a": "AGAL",
-                "b": "BGAL"
-            },
-            "glycam06_candidate": "3LB",
-            "glycam06_family": "L",
-            "pdb_ccd_names": [
-                "GAL",
-                "GLA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "3": {
-            "charmm": {
-                "a": "AGLCNA",
-                "b": "BGLCNA"
-            },
-            "glycam06_candidate": "WYB",
-            "glycam06_family": "Y",
-            "pdb_ccd_names": [
-                "NAG",
-                "NDG",
-                "SGN",
-                "4YS"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "4": {
-            "charmm": {
-                "a": "AGAL",
-                "b": "BGAL"
-            },
-            "glycam06_candidate": "3LB",
-            "glycam06_family": "L",
-            "pdb_ccd_names": [
-                "GAL",
-                "GLA"
-            ],
-            "outgoing_anomer": "b"
-        },
-        "5": {
-            "charmm": {
-                "a": "ANE5AC",
-                "b": "BNE5AC"
-            },
-            "glycam06_candidate": "0SA",
-            "glycam06_family": "S",
-            "pdb_ccd_names": [
-                "SIA"
-            ],
-            "outgoing_anomer": "a"
-        },
-        "6": {
-            "charmm": {
-                "a": "AFUC",
-                "b": "BFUC"
-            },
-            "glycam06_candidate": null,
-            "glycam06_family": "F",
-            "pdb_ccd_names": [
-                "FUC",
-                "FUL"
-            ],
-            "outgoing_anomer": "a"
-        }
-    },
-    "graph_edges": [
-        {
-            "id": "1_2",
-            "parent": "1",
-            "child": "2",
-            "linkage": "b1-3"
-        },
-        {
-            "id": "2_3",
-            "parent": "2",
-            "child": "3",
-            "linkage": "b1-3"
-        },
-        {
-            "id": "3_4",
-            "parent": "3",
-            "child": "4",
-            "linkage": "b1-4"
-        },
-        {
-            "id": "3_6",
-            "parent": "3",
-            "child": "6",
-            "linkage": "a1-3"
-        },
-        {
-            "id": "4_5",
-            "parent": "4",
-            "child": "5",
-            "linkage": "a2-3"
-        }
+    "2": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "graph_nodes": [
-        {
-            "id": "1",
-            "mono": "GalNAc",
-            "terminal_modification": false,
-            "pdb_resid": 4,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "2",
-            "mono": "Gal",
-            "terminal_modification": false,
-            "pdb_resid": 5,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "3",
-            "mono": "GlcNAc",
-            "terminal_modification": false,
-            "pdb_resid": 6,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "4",
-            "mono": "Gal",
-            "terminal_modification": false,
-            "pdb_resid": 7,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        },
-        {
-            "id": "5",
-            "mono": "Neu5Ac",
-            "terminal_modification": false,
-            "pdb_resid": 8,
-            "pucker_ring_atoms": [
-                "O6",
-                "C2",
-                "C3",
-                "C4",
-                "C5",
-                "C6"
-            ]
-        },
-        {
-            "id": "6",
-            "mono": "Fuc",
-            "terminal_modification": false,
-            "pdb_resid": 9,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        }
+    "3": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
     ],
-    "root_node": "1",
-    "simulation": {
-        "n_replica": 12,
-        "min_temperature": 310.15,
-        "max_temperature": 800.0,
-        "structure_file": "step5_production.gro",
-        "mdp_file": "production.mdp",
-        "template_files": [
-            "*.mdp",
-            "generate_HREMD.sh",
-            "job.sh"
-        ],
-        "forcefield_file": "toppar/forcefield.itp"
+    "4": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "5": [
+      "O6",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "6": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ]
+  },
+  "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+  "pdb_glycosidic_bonds": [
+    {
+      "parent": "1",
+      "child": "2",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O3",
+      "distance_angstrom": 1.408
+    },
+    {
+      "parent": "2",
+      "child": "3",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O3",
+      "distance_angstrom": 1.406
+    },
+    {
+      "parent": "3",
+      "child": "4",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O4",
+      "distance_angstrom": 1.407
+    },
+    {
+      "parent": "3",
+      "child": "6",
+      "donor_carbon": "C1",
+      "acceptor_oxygen": "O3",
+      "distance_angstrom": 1.413
+    },
+    {
+      "parent": "4",
+      "child": "5",
+      "donor_carbon": "C2",
+      "acceptor_oxygen": "O3",
+      "distance_angstrom": 1.412
     }
+  ],
+  "reconstruction": {
+    "status": "partially_verified",
+    "warnings": [
+      "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+      "Inter-residue bonds inferred from PDB distances, not verified against topology"
+    ],
+    "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/step3_input.pdb",
+    "user_checked": false,
+    "topology_sources": [
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/CLA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/PROA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/SOD.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/TIP3.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/toppar/forcefield.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/charmm-gui-1318061032_Sulfo_Sialyl-Lex_on_Extended_Core1_MECA79/gromacs/topol.top"
+    ],
+    "topology_residues_resolved": 6
+  },
+  "forcefield_residue_names": {
+    "1": {
+      "charmm": {
+        "a": "AGALNA",
+        "b": "BGALNA"
+      },
+      "glycam06_candidate": null,
+      "glycam06_family": "V",
+      "pdb_ccd_names": [
+        "NGA"
+      ],
+      "outgoing_anomer": null
+    },
+    "2": {
+      "charmm": {
+        "a": "AGAL",
+        "b": "BGAL"
+      },
+      "glycam06_candidate": "3LB",
+      "glycam06_family": "L",
+      "pdb_ccd_names": [
+        "GAL",
+        "GLA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "3": {
+      "charmm": {
+        "a": "AGLCNA",
+        "b": "BGLCNA"
+      },
+      "glycam06_candidate": "WYB",
+      "glycam06_family": "Y",
+      "pdb_ccd_names": [
+        "NAG",
+        "NDG",
+        "SGN",
+        "4YS"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "4": {
+      "charmm": {
+        "a": "AGAL",
+        "b": "BGAL"
+      },
+      "glycam06_candidate": "3LB",
+      "glycam06_family": "L",
+      "pdb_ccd_names": [
+        "GAL",
+        "GLA"
+      ],
+      "outgoing_anomer": "b"
+    },
+    "5": {
+      "charmm": {
+        "a": "ANE5AC",
+        "b": "BNE5AC"
+      },
+      "glycam06_candidate": "0SA",
+      "glycam06_family": "S",
+      "pdb_ccd_names": [
+        "SIA"
+      ],
+      "outgoing_anomer": "a"
+    },
+    "6": {
+      "charmm": {
+        "a": "AFUC",
+        "b": "BFUC"
+      },
+      "glycam06_candidate": null,
+      "glycam06_family": "F",
+      "pdb_ccd_names": [
+        "FUC",
+        "FUL"
+      ],
+      "outgoing_anomer": "a"
+    }
+  },
+  "graph_edges": [
+    {
+      "id": "1_2",
+      "parent": "1",
+      "child": "2",
+      "linkage": "b1-3"
+    },
+    {
+      "id": "2_3",
+      "parent": "2",
+      "child": "3",
+      "linkage": "b1-3"
+    },
+    {
+      "id": "3_4",
+      "parent": "3",
+      "child": "4",
+      "linkage": "b1-4"
+    },
+    {
+      "id": "3_6",
+      "parent": "3",
+      "child": "6",
+      "linkage": "a1-3"
+    },
+    {
+      "id": "4_5",
+      "parent": "4",
+      "child": "5",
+      "linkage": "a2-3"
+    }
+  ],
+  "graph_nodes": [
+    {
+      "id": "1",
+      "mono": "GalNAc",
+      "terminal_modification": false,
+      "pdb_resid": 4,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "2",
+      "mono": "Gal",
+      "terminal_modification": false,
+      "pdb_resid": 5,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "3",
+      "mono": "GlcNAc",
+      "terminal_modification": false,
+      "pdb_resid": 6,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "4",
+      "mono": "Gal",
+      "terminal_modification": false,
+      "pdb_resid": 7,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "5",
+      "mono": "Neu5Ac",
+      "terminal_modification": false,
+      "pdb_resid": 8,
+      "pucker_ring_atoms": [
+        "O6",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "id": "6",
+      "mono": "Fuc",
+      "terminal_modification": false,
+      "pdb_resid": 9,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "root_node": "1",
+  "simulation": {
+    "n_replica": 12,
+    "min_temperature": 310.15,
+    "max_temperature": 800.0,
+    "structure_file": "step5_production.gro",
+    "mdp_file": "production.mdp",
+    "template_files": [
+      "*.mdp",
+      "generate_HREMD.sh",
+      "job.sh"
+    ],
+    "forcefield_file": "toppar/forcefield.itp"
+  },
+  "analysis": {
+    "schema_version": 1,
+    "status": "complete",
+    "files": {
+      "colvar": "colvar.dat",
+      "angles": "angles.dat",
+      "omega_angles": "omega_angles.dat",
+      "pucker": "pucker.dat",
+      "trajectories": [
+        "conformations_rest-rect_aligned.xtc"
+      ],
+      "references": [
+        "reference_rest-rect.pdb"
+      ]
+    },
+    "colvar_rows": 50001,
+    "dihedrals": [
+      {
+        "id": 0,
+        "name": "phi1_2",
+        "type": "phi",
+        "edge_id": "1_2",
+        "colvar_column": "phi1_2",
+        "fes_file": "fes_phi1_2_0.dat"
+      },
+      {
+        "id": 1,
+        "name": "psi1_2",
+        "type": "psi",
+        "edge_id": "1_2",
+        "colvar_column": "psi1_2",
+        "fes_file": "fes_psi1_2_0.dat"
+      },
+      {
+        "id": 2,
+        "name": "phi2_3",
+        "type": "phi",
+        "edge_id": "2_3",
+        "colvar_column": "phi2_3",
+        "fes_file": "fes_phi2_3_0.dat"
+      },
+      {
+        "id": 3,
+        "name": "psi2_3",
+        "type": "psi",
+        "edge_id": "2_3",
+        "colvar_column": "psi2_3",
+        "fes_file": "fes_psi2_3_0.dat"
+      },
+      {
+        "id": 4,
+        "name": "phi3_4",
+        "type": "phi",
+        "edge_id": "3_4",
+        "colvar_column": "phi3_4",
+        "fes_file": "fes_phi3_4_0.dat"
+      },
+      {
+        "id": 5,
+        "name": "psi3_4",
+        "type": "psi",
+        "edge_id": "3_4",
+        "colvar_column": "psi3_4",
+        "fes_file": "fes_psi3_4_0.dat"
+      },
+      {
+        "id": 6,
+        "name": "phi4_5",
+        "type": "phi",
+        "edge_id": "4_5",
+        "colvar_column": "phi4_5",
+        "fes_file": "fes_phi4_5_0.dat"
+      },
+      {
+        "id": 7,
+        "name": "psi4_5",
+        "type": "psi",
+        "edge_id": "4_5",
+        "colvar_column": "psi4_5",
+        "fes_file": "fes_psi4_5_0.dat"
+      },
+      {
+        "id": 8,
+        "name": "phi3_6",
+        "type": "phi",
+        "edge_id": "3_6",
+        "colvar_column": "phi3_6",
+        "fes_file": "fes_phi3_6_0.dat"
+      },
+      {
+        "id": 9,
+        "name": "psi3_6",
+        "type": "psi",
+        "edge_id": "3_6",
+        "colvar_column": "psi3_6",
+        "fes_file": "fes_psi3_6_0.dat"
+      }
+    ],
+    "validation": {
+      "colvar_columns_match": true,
+      "fes_mapping_complete": true,
+      "trajectory_frames_match": null,
+      "conformer_states_match": null
+    },
+    "warnings": []
+  }
 }

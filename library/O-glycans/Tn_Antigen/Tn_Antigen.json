@@ -1,97 +1,127 @@
 {
-    "glycan_id": "Tn_Antigen",
-    "iupac": "GalNAc",
-    "terminal_modifications": [],
-    "peptide": "ASA",
-    "monosaccharides": {
-        "1": "GalNAc"
-    },
-    "linkages": {},
-    "pdb_residues": {
-        "1": 4
-    },
-    "pdb_original_resseq": {
-        "1": "1"
-    },
-    "pdb_residue_names": {
-        "1": "AGAL"
-    },
-    "pdb_segments": {
-        "1": "CARA"
-    },
-    "pucker_ring_atoms": {
-        "1": [
-            "O5",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5"
-        ]
-    },
-    "pdb_mapping_method": "direct_PDB_graph_reconstruction",
-    "pdb_glycosidic_bonds": [],
-    "reconstruction": {
-        "status": "partially_verified",
-        "warnings": [
-            "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
-            "Inter-residue bonds inferred from PDB distances, not verified against topology"
-        ],
-        "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/step3_input.pdb",
-        "user_checked": false,
-        "topology_sources": [
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/CLA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/PROA.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/SOD.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/TIP3.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/forcefield.itp",
-            "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/topol.top"
-        ],
-        "topology_residues_resolved": 1
-    },
-    "forcefield_residue_names": {
-        "1": {
-            "charmm": {
-                "a": "AGALNA",
-                "b": "BGALNA"
-            },
-            "glycam06_candidate": null,
-            "glycam06_family": "V",
-            "pdb_ccd_names": [
-                "NGA"
-            ],
-            "outgoing_anomer": null
-        }
-    },
-    "graph_edges": [],
-    "graph_nodes": [
-        {
-            "id": "1",
-            "mono": "GalNAc",
-            "terminal_modification": false,
-            "pdb_resid": 4,
-            "pucker_ring_atoms": [
-                "O5",
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
-            ]
-        }
+  "glycan_id": "Tn_Antigen",
+  "iupac": "GalNAc",
+  "terminal_modifications": [],
+  "peptide": "ASA",
+  "monosaccharides": {
+    "1": "GalNAc"
+  },
+  "linkages": {},
+  "pdb_residues": {
+    "1": 4
+  },
+  "pdb_original_resseq": {
+    "1": "1"
+  },
+  "pdb_residue_names": {
+    "1": "AGAL"
+  },
+  "pdb_segments": {
+    "1": "CARA"
+  },
+  "pucker_ring_atoms": {
+    "1": [
+      "O5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ]
+  },
+  "pdb_mapping_method": "direct_PDB_graph_reconstruction",
+  "pdb_glycosidic_bonds": [],
+  "reconstruction": {
+    "status": "partially_verified",
+    "warnings": [
+      "Residue identities matched to topology [ atoms ] records by atom names; PDB bonds still geometry-inferred",
+      "Inter-residue bonds inferred from PDB distances, not verified against topology"
     ],
-    "root_node": "1",
-    "simulation": {
-        "n_replica": 12,
-        "min_temperature": 310.15,
-        "max_temperature": 800.0,
-        "structure_file": "step5_production.gro",
-        "mdp_file": "production.mdp",
-        "template_files": [
-            "*.mdp",
-            "generate_HREMD.sh",
-            "job.sh"
-        ],
-        "forcefield_file": "toppar/forcefield.itp"
+    "source_pdb": "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/step3_input.pdb",
+    "user_checked": false,
+    "topology_sources": [
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/CLA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/PROA.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/SOD.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/TIP3.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/toppar/forcefield.itp",
+      "/work/grothaus/GlycoSOFTWARE/GlycoGEN/data/O-glycans/Tn_Antigen/charmm-gui-1318176085_Tn_Antigen/gromacs/topol.top"
+    ],
+    "topology_residues_resolved": 1
+  },
+  "forcefield_residue_names": {
+    "1": {
+      "charmm": {
+        "a": "AGALNA",
+        "b": "BGALNA"
+      },
+      "glycam06_candidate": null,
+      "glycam06_family": "V",
+      "pdb_ccd_names": [
+        "NGA"
+      ],
+      "outgoing_anomer": null
     }
+  },
+  "graph_edges": [],
+  "graph_nodes": [
+    {
+      "id": "1",
+      "mono": "GalNAc",
+      "terminal_modification": false,
+      "pdb_resid": 4,
+      "pucker_ring_atoms": [
+        "O5",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "root_node": "1",
+  "simulation": {
+    "n_replica": 12,
+    "min_temperature": 310.15,
+    "max_temperature": 800.0,
+    "structure_file": "step5_production.gro",
+    "mdp_file": "production.mdp",
+    "template_files": [
+      "*.mdp",
+      "generate_HREMD.sh",
+      "job.sh"
+    ],
+    "forcefield_file": "toppar/forcefield.itp"
+  },
+  "analysis": {
+    "schema_version": 1,
+    "status": "metadata_only",
+    "files": {
+      "colvar": null,
+      "angles": null,
+      "omega_angles": null,
+      "pucker": null,
+      "trajectories": [
+        "conformations_rest-rect_aligned.xtc"
+      ],
+      "references": [
+        "reference_rest-rect.pdb"
+      ]
+    },
+    "colvar_rows": null,
+    "dihedrals": [],
+    "validation": {
+      "colvar_columns_match": null,
+      "fes_mapping_complete": null,
+      "trajectory_frames_match": null,
+      "conformer_states_match": null
+    },
+    "warnings": [
+      "Missing angles.dat",
+      "Missing omega_angles.dat",
+      "Missing pucker.dat",
+      "colvar.dat missing"
+    ]
+  }
 }
